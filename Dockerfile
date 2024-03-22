@@ -13,4 +13,4 @@ ARG DDDDOCR_VERSION=master
 # ENV DDDDOCR_VERSION=${DDDDOCR_VERSION}
 
 # 换源 & Install packages
-RUN uname -m
+RUN echo "this arch is $(arch)"
